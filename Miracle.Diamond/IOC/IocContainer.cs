@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace IOC
 {
-    public abstract class IocContainer<T> where T : class
+    public abstract class IocContainer<TObject> where TObject : class
     {
         private readonly ISet<object> g_persistent = null;
 
@@ -154,7 +154,7 @@ namespace IOC
                 {
                     foreach (Type type in assembly.GetExportedTypes())
                     {
-                        if (!typeof(T).IsAssignableFrom(type))
+                        if (!typeof(TObject).IsAssignableFrom(type))
                             continue;
                         Resolve(type, assemblies);
                     }
@@ -167,7 +167,7 @@ namespace IOC
             CheckAssmeblyAndThrowEmpty(assemblies);
             if (type == null)
                 throw new ArgumentNullException();
-            if (!typeof(T).IsAssignableFrom(type))
+            if (!typeof(TObject).IsAssignableFrom(type))
                 return new ArgumentException();
             lock (this)
             {
