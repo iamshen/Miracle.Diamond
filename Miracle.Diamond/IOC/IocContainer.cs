@@ -7,9 +7,9 @@ namespace IOC
 {
     public abstract class IocContainer<TObject> where TObject : class
     {
-        private readonly ISet<object> g_persistent = null;
+        private static ISet<object> g_persistent = null;
 
-        private readonly IDictionary<Type, object> g_relational = null;
+        private static IDictionary<Type, object> g_relational = null;
 
         public IocContainer()
         {

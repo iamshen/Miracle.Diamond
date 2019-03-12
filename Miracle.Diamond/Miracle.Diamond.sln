@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC", "IOC\IOC.csproj", "{CEF276DA-A131-4DAF-AEBA-915307503E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOC", "IOC\IOC.csproj", "{CEF276DA-A131-4DAF-AEBA-915307503E10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Map", "Map\Map.csproj", "{3AD78751-6A43-4595-B887-248524A5BC7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B15D1A2-F056-45C6-BD15-0645A9B142A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{EF6188C7-32B2-47F4-A840-41869A7247F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nupkg", "nupkg", "{946033EA-D915-4696-BA3E-BF94A27DD0FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{96CCFA62-1BCC-489C-9A41-8524909B0EF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{2EF9941F-0A28-42F2-9380-37E3ABF8B625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,17 @@ Global
 		{CEF276DA-A131-4DAF-AEBA-915307503E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEF276DA-A131-4DAF-AEBA-915307503E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEF276DA-A131-4DAF-AEBA-915307503E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD78751-6A43-4595-B887-248524A5BC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD78751-6A43-4595-B887-248524A5BC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD78751-6A43-4595-B887-248524A5BC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD78751-6A43-4595-B887-248524A5BC7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEF276DA-A131-4DAF-AEBA-915307503E10} = {8B15D1A2-F056-45C6-BD15-0645A9B142A1}
+		{3AD78751-6A43-4595-B887-248524A5BC7B} = {8B15D1A2-F056-45C6-BD15-0645A9B142A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8AAFC8-CD81-4FDB-AFAD-04E43CE5BAAE}
