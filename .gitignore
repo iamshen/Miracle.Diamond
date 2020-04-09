@@ -3,3 +3,7 @@
 ################################################################################
 
 /web/WebApi/bin/Debug/netcoreapp3.1
+/web/WebApi/obj/Debug/netcoreapp3.1
+/web/WebApi/obj
+/src/netCore.Utitly/obj/Debug/netcoreapp3.1
+/src/netCore.Utitly/obj

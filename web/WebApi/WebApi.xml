@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:WebApi.Controllers.HomeController">
+            <summary>
+            控制器
+            </summary>
+        </member>
+        <member name="M:WebApi.Controllers.HomeController.#ctor(netCore.Utitly.Interface.IHttpClientEntity)">
+            <summary>
+            初始化
+            </summary>
+            <param name="httpClientEntity"></param>
+        </member>
+        <member name="M:WebApi.Controllers.HomeController.Test(System.String,System.String)">
+            <summary>
+            测试接口
+            </summary>
+            <param name="id">参数1</param>
+            <param name="name">参数2</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.HomeController.GetApi(System.String)">
+            <summary>
+            Get
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.HomeController.PostApi(System.String,System.String)">
+            <summary>
+            Post
+            </summary>
+            <param name="id">参数1</param>
+            <param name="name">参数2</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
